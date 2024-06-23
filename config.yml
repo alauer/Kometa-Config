@@ -62,6 +62,9 @@ libraries:                       # This is called out once within the config.yml
           rating3_font: config/overlays/fonts/Impact.ttf
           rating3_font_size: 70
     operations:
+      delete_collections:
+        configured: false
+        managed: false
       #mass_poster_update: plex                   #  Resets posters to tmdb or plex
       mass_user_rating_update: imdb           #  This operation will update the user rating in plex with imdb ratings information gathered through mdblist.com (mdblist config required)
           
