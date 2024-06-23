@@ -8,7 +8,7 @@
 ## TMDB and mdblist accounts are required for this scrypt to work. Fill in your apikeys where there are XXXXXXXXXXXXXXXXXXX
 
 libraries:                       # This is called out once within the config.yml file
-  MediaTest:  ################# THIS IS THE NAME OF YOUR "MOVIE" LIBRARY IN PLEX. IF YOUR MOVIE LIBRARY IS NAMED DIFFERENTLY THEN COPY THAT NAME HERE.
+  Movies:  ################# THIS IS THE NAME OF YOUR "MOVIE" LIBRARY IN PLEX. IF YOUR MOVIE LIBRARY IS NAMED DIFFERENTLY THEN COPY THAT NAME HERE.
     report_path: config/missing/Movies_report.yml 
     collection_files:
       - default: basic                 # Creates Collections for New Episodes from last 7 days and Newly Released from past 90 days
@@ -42,6 +42,7 @@ libraries:                       # This is called out once within the config.yml
           #- wizard #Wizarding World
           - xmen    #X-Men Universe
           #visible_home_customnamehere: true  #This will show a collection on home screen in Plex, this case its my custom list from above
+      - file: config/Movie Collections.yml #This pulls the "Movie Collections.yml" file and makes a custom Collections
     
     overlay_files:
       #- reset_overlays: plex      # reset overlays to plex or tmdb
