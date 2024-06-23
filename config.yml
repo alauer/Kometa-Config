@@ -130,4 +130,15 @@ tmdb:                            # REQUIRED for the script to run you need to cr
 mdblist:                         # REQUIRED for the script to run you need to create an account on mdblist.com, you can create an account with trakt and link it. https://kometa.wiki/en/latest/config/mdblist/
   apikey: 514cjl2mnf40flm2mts4eah4c             
   cache_expiration: 60
- 
+trakt:                           # Some collections (Star Trek) will pull from trakt and will require you to create an account https://kometa.wiki/en/latest/config/trakt/
+  client_id: c7d87dd5d91faf035adec1510fd45df1f909ba0a78b2a82b0e7e7cabebfc32ff
+  client_secret: ed65e531486b720166b537db51edefd5c2a1c778c572bf7f1efc23456de7b79e
+  pin: 248ED35C
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:
+    scope: public
+    created_at:
