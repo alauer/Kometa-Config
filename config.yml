@@ -97,10 +97,9 @@ plex:                            # Can be individually specified per library as 
 #notifiarr:
   #apikey: xxxxxxxxxxxxxxxxxxxxxxxxxx
 tmdb:                            # REQUIRED for the script to run you need to create an account on tmdb.com https://kometa.wiki/en/latest/config/tmdb/
-  apikey: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlOWM1ZDFlZTU1MjFiNjFjNWU3MzgwYzI1NmYwMzUwZiIsIm5iZiI6MTcxOTE0NjgxNy44OTYzNDUsInN1YiI6IjY2NzgxM2NmYTlhODEyY2E3MWIwYjIwZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0WSG90eWqRdkptlGnniglc5UkKBqo37ugRP55k_3yj8
+  apikey: e9c5d1ee5521b61c5e7380c256f0350f
   language: en
 mdblist:                         # REQUIRED for the script to run you need to create an account on mdblist.com, you can create an account with trakt and link it. https://kometa.wiki/en/latest/config/mdblist/
   apikey: 514cjl2mnf40flm2mts4eah4c             
   cache_expiration: 60
-
-  
+ 
