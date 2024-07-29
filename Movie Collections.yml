@@ -6,3 +6,5 @@ collections:
     trakt_list: https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie 
     schedule: range(12/01-12/31) 
     delete_not_scheduled: true 
+  Hallmark Christmas:
+    trakt_list: https://trakt.tv/users/maezel/lists/hallmark-christmas-movies-2023
