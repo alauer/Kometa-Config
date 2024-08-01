@@ -7,6 +7,7 @@ collections:
     schedule: range(12/01-12/31) 
     delete_not_scheduled: true 
   Hallmark Christmas:
-    trakt_list: https://trakt.tv/users/maezel/lists/hallmark-christmas-movies-2023
-    collection_order: title.asc
+    mdblist_list: https://mdblist.com/lists/maezel/hallmark-christmas-gxbuo5a6jl
+    collection_order: custom
+    sync_mode: sync
     url_poster: https://theposterdb.com/api/assets/48894
